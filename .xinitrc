@@ -48,6 +48,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-#~/.fehbg &
-/home/alex/bin/mpvbg.sh /home/alex/pictures/wallpapers/current &
+/home/alex/bin/mpvbg.sh /home/alex/.wallpapers/current &
 exec i3
